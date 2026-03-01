@@ -10,6 +10,7 @@
 </p>
 
 </div>
+
 ## 🎯 Objetivo do Projeto
 Este projeto foi desenvolvido como uma **PoC (Proof of Concept) (Prova de Conceito)** focada na migração de sistemas financeiros monolíticos legados para uma arquitetura moderna de microsserviços. 
 
