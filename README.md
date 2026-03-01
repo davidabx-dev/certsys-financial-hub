@@ -1,4 +1,7 @@
-# 🚀 Certsys Financial Hub - Modernização de Legado
+<div align="center">
+
+# Certsys Financial Hub - Modernização de Legado
+</div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java 17"/>
@@ -7,6 +10,7 @@
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
 </p>
 
+</div>
 ## 🎯 Objetivo do Projeto
 Este projeto foi desenvolvido como uma **PoC (Proof of Concept) (Prova de Conceito)** focada na migração de sistemas financeiros monolíticos legados para uma arquitetura moderna de microsserviços. 
 
