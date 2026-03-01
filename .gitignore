@@ -1,0 +1,10 @@
+﻿# Compilação do Maven
+target/
+*.jar
+*.war
+*.ear
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.iml
