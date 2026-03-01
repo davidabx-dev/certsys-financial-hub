@@ -66,7 +66,7 @@ kubectl get pods
 Abra um terminal e simule uma transferência financeira via cURL:
 
 ```bash
-curl -X POST http://localhost:8080/api/transactions/transfer -H "Content-Type: application/json" -d "{\"currentBalance\": 1000.0, \"amount\": 250.0}"
+curl.exe -X POST http://localhost:8080/api/transactions/transfer -H "Content-Type: application/json" -d "{\`"currentBalance\`": 1000.0, \`"amount\`": 250.0}"
 ```
 ---
 
