@@ -66,8 +66,7 @@ kubectl get pods
 Abra um terminal e simule uma transferência financeira via cURL:
 
 ```bash
-docker build -t certsys-financial-hub .
-docker run -p 8080:8080 --name certsys-api certsys-financial-hub
+curl -X POST http://localhost:8080/api/transactions/transfer -H "Content-Type: application/json" -d "{\"currentBalance\": 1000.0, \"amount\": 250.0}"
 ```
 ---
 
