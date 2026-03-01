@@ -65,4 +65,6 @@ Abra um terminal e simule uma transferência financeira via cURL:
 docker build -t certsys-financial-hub .
 docker run -p 8080:8080 --name certsys-api certsys-financial-hub
 ```
+---
 
+Desenvolvido com ☕ e persistência por DavidABx
