@@ -1,7 +1,6 @@
 <div align="center">
 
 # Certsys Financial Hub - Modernização de Legado
-</div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java 17"/>
