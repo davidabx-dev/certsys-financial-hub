@@ -1,0 +1,32 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: certsys-finance-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: certsys-api
+  template:
+    metadata:
+      labels:
+        app: certsys-api
+    spec:
+      containers:
+      - name: certsys-api-container
+        image: certsys-financial-hub:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: certsys-finance-service
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 8080
+    targetPort: 8080
+  selector:
+    app: certsys-api
