@@ -55,8 +55,8 @@ docker run -p 8080:8080 --name certsys-api certsys-financial-hub
 
 **4. Subir no Kubernetes (Alta Disponibilidade)**
 ```bash
-docker build -t certsys-financial-hub .
-docker run -p 8080:8080 --name certsys-api certsys-financial-hub
+kubectl apply -f k8s-deployment.yaml
+kubectl get pods
 ```
 
 ---
